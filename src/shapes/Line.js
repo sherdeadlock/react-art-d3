@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Shape, Transform } from 'react-art';
 import { line, curveBasis } from 'd3-shape';
-import ArtPath from '../ArtPath';
+import ArtPath from './ArtPath';
 
 export default class Line extends Component {
   render() {
