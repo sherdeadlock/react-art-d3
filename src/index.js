@@ -4,6 +4,8 @@ import { browserHistory, Router, Route, IndexRoute, Link } from 'react-router'
 import { App } from './App';
 import { LineAndCurve } from './examples';
 
+import './index.css';
+
 render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
