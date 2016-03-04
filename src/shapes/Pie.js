@@ -13,13 +13,14 @@ export default class Pie extends Component {
 
     const shapes = arcs.map((arcData, i) => {
       const artPath = new ArtPath();
-      console.log(arcData);
       a.context(artPath);
       a(arcData);
       const path = artPath.toART();
       return <Shape key={i} fill={style.fill} stroke={style.stroke}
         strokeWidth={style.strokeWidth} d={path} />;
     });
+
+    // TODO colors
 
     return <Group x={x} y={y}>{shapes}</Group>;
   }

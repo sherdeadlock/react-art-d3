@@ -1,7 +1,3 @@
-import LineAndCurve from './LineAndCurve';
-import PieAndDonut from './PieAndDonut';
-
-export {
-  LineAndCurve,
-  PieAndDonut,
-}
+export LineAndCurve from './LineAndCurve';
+export PieAndDonut from './PieAndDonut';
+export Areas from './Areas';

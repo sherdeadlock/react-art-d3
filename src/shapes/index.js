@@ -1,7 +1,3 @@
-import Line from './Line';
-import Pie from './Pie';
-
-export {
-  Line,
-  Pie,
-}
+export Line from './Line';
+export Pie from './Pie';
+export Area from './Area';
